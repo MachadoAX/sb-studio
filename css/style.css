@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-color{
+    background: rgb(255,106,93);
+    background: linear-gradient(148deg, rgba(255,106,93,1) 35%, rgba(209,120,51,0.9724264705882353) 91%);
+}
+
+.name_servicos{
+    font-family: 'Secular One', sans-serif;
+}
+
+.bg-header{
+    width: auto;
+    background-image: url("https://portalacustica.info/wp-content/uploads/2021/01/estudios-de-mixagem-e-masterizacao.png");
+}
+
+footer{
+    margin-top: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 3rem;
+    padding: 16px;
+}
